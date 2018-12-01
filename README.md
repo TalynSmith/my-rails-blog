@@ -1,24 +1,15 @@
 # README
+ 
+ bundle exec rake/rails db:create 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ budle exec -runs the command in the context of this project
 
-Things you may want to cover:
+ rake/rails - allows ruby to define tasks
 
-* Ruby version
+ db:create - this create database 
 
-* System dependencies
+ bundle exec rake/rails db:migrate 
 
-* Configuration
+ db:migrate - it will run all the new migrations
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ bundle exec -T allows you to see all the commands you can do  
